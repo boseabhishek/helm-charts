@@ -30,7 +30,7 @@ service:
 
 ingress:
   # -- Enable ingress controller resource
-  enabled: false
+  enabled: true               # TODO: fix later 
   # -- Ingress ingressClassName
   className: nginx
   # -- Ingress annotations
@@ -40,7 +40,7 @@ ingress:
   path: /
   # -- List of hostnames
   hosts:
-    - smellysearch-example.local
+    - smelly.badgers           # TODO: fix later
   # -- TLS specification
   tls: []
   #  - secretName: chart-example-tls
