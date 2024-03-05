@@ -1,24 +1,13 @@
 # smelly-helm-charts
 
-## Install a smelly frontend/UI :
+## Usage:
 
 ```shell
-helm upgrade -i smelly-ui smelly-helm-charts
-```
 
-## Install a smelly frontend/UI with a custom host domain:
-- create a `myvalues.yaml` file and add below:
-    ```
-    ingress:
-        hosts:
-            - host: my.custom.domain
-    ```
-- install it
-    ```shell
-    helm upgrade -i --values myvalues.yaml  smelly-ui smelly-helm-charts 
-    ```
+# add the helm repo and name it smellysearch (say)
+helm repo add smellysearch https://boseabhishek.github.io/helm-charts/
 
-## Uninstall the release:
-```shell
-helm uninstall smelly-ui
+# start an instance/release named smelly-cat using reponame(added above)/chartname(charts/<chart-name>)
+helm upgrade -i smelly-cat smellysearch/smelly-ui
+
 ```
