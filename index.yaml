@@ -3,6 +3,16 @@ entries:
   smelly-ui:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-03-05T17:12:04.907989838Z"
+    description: A Helm chart for deploying smelly ui
+    digest: d5a01ee0786c2034434b068d0baccf7e35e23d97a960af35e186c90aff2a43c1
+    name: smelly-ui
+    type: application
+    urls:
+    - https://github.com/boseabhishek/helm-charts/releases/download/smelly-ui-0.1.2/smelly-ui-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-03-05T16:39:37.201199845Z"
     description: A Helm chart for deploying smelly ui
     digest: eb5a76e7313351f8e6248603adbe553ffc8af4e9a16f9b60d05ba16220c944bf
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/boseabhishek/helm-charts/releases/download/smelly-ui-0.1.0/smelly-ui-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-05T16:39:37.201231744Z"
+generated: "2024-03-05T17:12:04.908016318Z"
