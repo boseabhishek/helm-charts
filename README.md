@@ -1,6 +1,8 @@
-# smelly-helm-charts
+# helm-charts
 
-## Usage:
+## for smelly-ui charts
+
+### Usage:
 
 ```shell
 
